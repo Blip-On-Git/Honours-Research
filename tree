@@ -1,0 +1,38 @@
+.
+├── data *Kaldi project files* 
+│   ├── dev
+│   │   ├── text_dev
+│   │   ├── utt2spk_dev
+│   │   └── wav_dev.scp
+│   ├── lm
+│   ├── local
+│   │   └── lang
+│   │       ├── lexicon.txt
+│   │       ├── nonsilence_phones.txt
+│   │       ├── optional_silence.txt
+│   │       └── silence_phones.txt
+│   ├── test
+│   │   ├── text_test
+│   │   ├── utt2spk_test
+│   │   └── wav_test.scp
+│   └── train
+│       ├── text_train
+│       ├── utt2spk_train
+│       └── wav_train.scp
+├── exp
+│   ├── chain
+│   │   └── tdnn_1d_sp
+│   │       ├── decode_dev_tgsmall *Validation Results*
+│   │       │   ├── scoring_kaldi
+│   │       │   │   └── best_wer
+│   │       │   │
+|   |       |   └── validation word error rate files
+│   │       │   
+│   │       └── decode_test_tgsmall *Test Results*
+│   │           ├── scoring_kaldi
+│   │           │   └── best_wer
+│   │           │
+|   |           └── test word error rate files
+│   └── nnet3
+|
+└── scripts and other execution files for constructing, training, and evaluating system
