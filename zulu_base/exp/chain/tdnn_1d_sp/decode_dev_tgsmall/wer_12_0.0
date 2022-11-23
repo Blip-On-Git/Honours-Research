@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp/chain/tdnn_1d_sp/decode_dev_tgsmall/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 2.07 [ 180 / 8709, 30 ins, 71 del, 79 sub ]
+%SER 5.26 [ 155 / 2945 ]
+Scored 2945 sentences, 0 not present in hyp.
