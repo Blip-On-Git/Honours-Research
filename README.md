@@ -2,7 +2,11 @@
 
 ## Evaluating the use of multilingual pre-training to improve speech recognition for low-resource South African languages
 
-This repository contains the results and a limited set of the Kaldi files for each ASR system. The folders are named and structured based on normal Kaldi project structure. Word Error Rate results for each system can be found by following the general tree below.
+This repository contains the results and a limited set of the Kaldi files for each ASR system. The folders are named and structured based on normal Kaldi project structure. 
+
+A folder all of the NCHLT corpus data required for each system is also provided. The audio files can be obtained from the following the [SADiLaR website](https://repo.sadilar.org/discover?query=NCHLT&filtertype=mediaType&filter_relational_operator=equals&filter=Speech)
+
+Word Error Rate results for each system can be found by following the general tree below.
 
 ```
 Kaldi Project
