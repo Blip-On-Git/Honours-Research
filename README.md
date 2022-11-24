@@ -49,4 +49,15 @@ Kaldi Project
 │   └── nnet3
 |
 └── scripts and other execution files for constructing, training, and evaluating system
+
 ```
+
+### References for datasets
+
+NCHLT Corpora: 
+* E. Barnard, M. H. Davel, C. van Heerden, F. de Wet and J Badenhorst “The NCHLT Speech Corpus of the South African languages,” accepted for publication in Proc. SLTU, St Petersburg, Russia, May. 2014.
+
+NCHLT Pronunciation Dictionaries
+* E. Barnard, M. H. Davel, C. van Heerden, F. de Wet and J. Badenhorst, "The NCHLT corpus of the South African languages", in Proc. SLTU, May 2014
+* W. D. Basson and M. H. Davel, "Category-Based Phoneme-to-Grapheme Transliteration" in Proc. Interspeech, Lyon, France, August 2013, pp. 1956 - 1960.
+
